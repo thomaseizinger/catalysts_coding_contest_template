@@ -2,14 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="catalysts_conding_contest_temp_main" target="1.8" />
+      <module name="catalysts_conding_contest_temp_test" target="1.8" />
+      <module name="catalysts_conding_contest_tempalte_main" target="1.8" />
+      <module name="catalysts_conding_contest_tempalte_test" target="1.8" />
+      <module name="catalysts_conding_contest_template_main" target="1.8" />
+      <module name="catalysts_conding_contest_template_test" target="1.8" />
       <module name="ccc_main" target="1.8" />
       <module name="ccc_test" target="1.8" />
       <module name="common_main" target="1.8" />
       <module name="common_test" target="1.8" />
       <module name="sample_main" target="1.8" />
       <module name="sample_test" target="1.8" />
-      <module name="vienna_2017_main" target="1.8" />
-      <module name="vienna_2017_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

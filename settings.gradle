@@ -1,4 +1,4 @@
-rootProject.name = 'ccc'
+rootProject.name = 'catalysts_conding_contest_template'
 
 include ':common'
 include ':sample'

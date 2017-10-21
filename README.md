@@ -11,6 +11,8 @@ The project is intended to be used with Intellij IDEA. Support for executing JUn
 The project defines some conventions that, if adhered, make it a very easy and fast task to add a new level.
 
 - Add a new module for your current contest like vienna_2017
+- Add your module to `settings.gradle` via `include ':yourModuleName'`
+- Add a compile-dependency to the 'common' project (`compile project(':common')`)
 - Implement the `at.ccc.common.api.Level` interface in a class.
 
 The name of this class will be used to lookup the level files. The level files are expected to be under `resources` a folder named after the lowercase variant of your level name. If your level-class is called `Sample`, put your level files in a folder named `sample`. All files in this directory will be processed. Output will be written file-by-file in a sub-folder named `results`.
