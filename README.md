@@ -10,7 +10,7 @@ The project is intended to be used with Intellij IDEA. Support for executing JUn
 
 The project defines some conventions that, if adhered, make it a very easy and fast task to add a new level.
 
-- Add a new module for your current contest like vienna_2017
+- Add a new module (a folder with and empty `build.gradle` file) for your current contest. For example: vienna_2017
 - Add your module to `settings.gradle` via `include ':yourModuleName'`
 - Implement the `at.ccc.common.api.Level` interface in a class.
 
