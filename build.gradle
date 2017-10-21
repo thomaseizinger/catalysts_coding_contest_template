@@ -1,4 +1,4 @@
-subprojects {
+subprojects { subProject ->
 
     apply plugin: 'java'
     sourceCompatibility = 1.8
@@ -7,4 +7,10 @@ subprojects {
         mavenCentral()
     }
 
+    // Set up automatic dependency for all other modules
+    if (subProject.name != 'common') {
+        dependencies {
+            compile project(':common')
+        }
+    }
 }
