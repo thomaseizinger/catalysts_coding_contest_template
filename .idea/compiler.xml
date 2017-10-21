@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ccc_main" target="1.8" />
+      <module name="ccc_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="sample_main" target="1.8" />
+      <module name="sample_test" target="1.8" />
+      <module name="vienna_2017_main" target="1.8" />
+      <module name="vienna_2017_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

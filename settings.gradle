@@ -1,0 +1,4 @@
+rootProject.name = 'ccc'
+
+include ':common'
+include ':sample'
